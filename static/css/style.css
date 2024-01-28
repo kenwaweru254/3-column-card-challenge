@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+
+
+body{
+    display: grid;
+    max-height: 100vh;
+    place-items: center;
+}
+.main{
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 60vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.s1{ 
+    background-color:hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);
+    display: grid;
+    padding: 35px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+.s2{
+    background-color:hsl(184, 100%, 22%);
+    color:hsla(0, 0%, 100%, 0.75);
+    display: grid;
+    padding: 35px;
+    
+}
+.s3{
+    
+    background-color:hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75) ;
+    display: grid;
+    padding: 35px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.car{
+   
+   line-height: 2em;
+   font-family: 'Lexend Deca', sans-serif;
+}
+     
+
+h2{ 
+  color:  hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 35px;
+ 
+ 
+   
+   
+}
+.b1, .b2, .b3{
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(0, 0%, 95%); 
+    border: unset;
+    margin-top: 15%;
+}
+.b2{
+   
+    color: hsl(184, 100%, 22%);
+    
+}
+
+.b3{
+    
+    color: hsl(179, 100%, 13%);
+    
+    
+}
+.b1{
+    color:hsl(31, 77%, 52%);
+}
+
+
