@@ -8,17 +8,15 @@
 
 body{
     display: grid;
-    max-height: 100vh;
+    min-height: 100vh;
     place-items: center;
 }
 .main{
     position: relative;
     display: flex;
     width: 60%;
-    height: 60vh;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 10%;
 }
 .s1{ 
     background-color:hsl(31, 77%, 52%);
