@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700;900&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
@@ -14,15 +14,13 @@ body{
 .main{
     position: relative;
     display: flex;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 65%;
+   
 }
 .s1{ 
     background-color:hsl(31, 77%, 52%);
     color:hsla(0, 0%, 100%, 0.75);
     display: grid;
-    padding: 35px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     
@@ -31,18 +29,19 @@ body{
     background-color:hsl(184, 100%, 22%);
     color:hsla(0, 0%, 100%, 0.75);
     display: grid;
-    padding: 35px;
     
 }
 .s3{
-    
     background-color:hsl(179, 100%, 13%);
     color:hsla(0, 0%, 100%, 0.75) ;
     display: grid;
-    padding: 35px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 
+}
+.s1, .s2, .s3{
+   padding: 3rem;
+    
 }
 .car{
    
@@ -105,7 +104,6 @@ h2{
 @media screen and (max-width:600px) {
     .main{
         width: 320px;
-    
         display: flex;
         flex-direction: column;
     }
